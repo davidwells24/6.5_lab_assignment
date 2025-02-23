@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #45496b;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40vh auto auto auto;
+}
+
+button {
+    margin: auto;
+    width: 200px;
+    height: 75px;
+    font-size: 1.5em;
+    background: #6e75af;
+}
+
+h1 {
+    margin: 20px auto auto auto;
+}

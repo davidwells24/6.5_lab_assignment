@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="utilities.js"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body>
+    <div x-data="randomNameSelector()">
+        <button @click="pickName()">Say Hello</button>
+        <h1 x-text="name"></h1>
+    </div>
+</body>
+</html>
